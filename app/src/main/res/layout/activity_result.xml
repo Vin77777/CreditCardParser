@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tvBank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Bank :"
+        android:background="@drawable/black_border"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/black_border"
+        android:text="Card Last 4 :"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvCycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/black_border"
+        android:text="Billing Cycle : "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvDue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/black_border"
+        android:text="Payment due date :"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/black_border"
+        android:text="Total Amount due :"
+        android:textSize="20sp"/>
+</LinearLayout>
